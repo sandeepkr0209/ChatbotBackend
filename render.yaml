@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: chatbot-backend
+    env: python
+    buildCommand: ""
+    startCommand: python server.py
+    autoDeploy: true
