@@ -5,3 +5,6 @@ services:
     buildCommand: ""
     startCommand: python server.py
     autoDeploy: true
+buildCommand: pip install -r requirements.txt
+environment:
+  pythonVersion: 3.10.13
