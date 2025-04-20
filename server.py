@@ -29,7 +29,7 @@ URL = "https://drive.google.com/drive/folders/1MmMiuz05pNX6UEoJ4GloNmSEfrBJlCKR?
 
 if not os.path.exists(model_path):
     print("Downloading model...")
-    os.system(f"gdown --folder https://drive.google.com/drive/folders/{URL} -O {MODEL_FOLDER}")
+    os.system(f"gdown --folder https://drive.google.com/drive/folders/1MmMiuz05pNX6UEoJ4GloNmSEfrBJlCKR?usp=drive_link/{URL} -O {MODEL_FOLDER}")
     gdown.download(MODEL_ZIP_PATH, quiet=False)
 
     print("Extracting model...")
